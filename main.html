@@ -1,24 +1,21 @@
 <!DOCTYPE html>
-
 <html>
+  <head>
+    <title>Minimum Cost of Ropes</title>
+    <style>
+      #result {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form onsubmit="calculateMinCost(event)">
+      <label for="ropes">Enter the lengths of ropes:</label>
+      <input type="text" id="ropes" />
+      <button type="submit">Calculate Minimum Cost</button>
+    </form>
+    <div id="result"></div>
 
-<head>
-</head>
-
-<body>
-    <form id="form">
-        <label for="rope-lengths">Enter rope lengths:</label>
-        <input type="text" id="rope-lengths">
-        <button type="button" onclick="calculateMinCost()">Calculate</button>
-      </form>
-      <div id="result"></div>
-
-<script>
-    type="text/javascript" src="./script.js"
-
-  </script>
-  
-
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
